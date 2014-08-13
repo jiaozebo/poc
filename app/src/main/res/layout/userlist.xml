@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_height="fill_parent" 
+	android:id="@+id/window" 
+	android:background="#ffffff"
+	android:layout_width="match_parent">
+
+	<RelativeLayout
+	    android:id="@+id/TitleBar"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentTop="true"
+	    android:background="#222222" >
+		
+		<ImageView
+		    android:id="@+id/AppIcon"
+		    android:contentDescription="@string/app_name"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:background="#222222"
+		    android:layout_marginLeft="5dp"
+		    android:scaleType="center"
+		    android:src="@drawable/icon" />
+
+		<RelativeLayout
+		    android:id="@+id/linearLayout2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentTop="true"
+		    android:layout_toRightOf="@+id/AppIcon"
+		    android:layout_marginLeft="5dp"
+			android:layout_marginRight="5dp" 
+		    android:background="#ffffff" >
+		<TextView
+		    android:id="@+id/contextPane"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:gravity="left"
+		    android:text=""
+		    android:background="#222222"
+		    android:singleLine="true"
+		    android:textSize="23sp" >
+        </TextView>
+
+		<TextView
+		    android:id="@+id/GroupTitlePane"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@+id/contextPane"
+		    android:gravity="left"
+		    android:text=""
+		    android:layout_marginTop="1dp"
+		    android:singleLine="true"
+		    android:background="#222222"
+		    android:textSize="23sp" >
+         </TextView>
+       </RelativeLayout>
+	</RelativeLayout>
+	<RelativeLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content" 
+		android:id="@+id/GroupTitle"
+		android:background="#888888" 
+		android:paddingBottom="1dp"
+		android:layout_below="@+id/TitleBar">
+
+		<TextView
+		    android:id="@+id/groupTitle"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_centerHorizontal="true"
+		    android:background="#ffffff"
+		    android:gravity="center"
+		    android:singleLine="true"
+		    android:text=""
+		    android:textColor="#888888"
+		    android:textSize="23sp" >
+</TextView>
+	</RelativeLayout>
+
+	<ListView
+	    android:id="@+id/UserListView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_above="@+id/toolBar"
+	    android:layout_below="@+id/GroupTitle"
+	    android:dividerHeight="1dp"
+	    android:focusable="false"
+	    android:fadingEdge="horizontal"		    
+	    android:fadingEdgeLength="5dp"
+	    android:background="#ffffff">
+</ListView>
+	<RelativeLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content" 
+		android:id="@+id/toolBar"
+		android:paddingBottom="10dp"
+		android:paddingTop="10dp"
+		android:layout_alignParentBottom="true">
+		<Button android:layout_width="wrap_content" 
+		        android:layout_alignParentLeft="true" 
+		        android:layout_height="wrap_content" 
+		        android:textSize="25sp"
+		        android:layout_marginLeft="10dp" 
+		        android:padding="10dp"
+		        android:textColor="@drawable/button_font_style"
+		        android:id="@+id/InviteTmpGroup" 
+		        android:text="@string/InviteTmp"></Button>
+		<Button android:layout_height="wrap_content" android:id="@+id/SpkBtn"
+			android:text="@string/speak" android:textSize="25sp"
+			android:layout_marginLeft="110dp" 
+			android:layout_marginRight="110dp"
+			android:padding="10dp"
+			android:textColor="@drawable/button_font_style"
+			android:layout_width="match_parent"></Button>
+		<Button android:layout_width="wrap_content" 
+		        android:layout_alignParentRight="true" 
+		        android:layout_height="wrap_content" 
+		        android:textSize="25sp"
+		        android:padding="10dp"
+		        android:layout_marginRight="10dp" 
+		        android:textColor="@drawable/button_font_style"
+		        android:id="@+id/BackToIndexBtn" 
+		        android:text="@string/back"></Button>
+	</RelativeLayout>
+
+</RelativeLayout>

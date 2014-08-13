@@ -1,0 +1,16 @@
+ServerAddr = 103.22.191.27
+LogServAddr = 103.22.191.27
+UseSetIPAddr = 1
+ProtocolType = MUDP 
+MCastPort = 51000 
+LocationPort = 50011
+LoactionSendTime = 0
+UdpNat = 5000 
+RecordLength = 200 
+PlayCacheLength = 1
+PlayingLength = 2 
+RecordUnitLength = 100 
+VoiceCodec = 33
+AutoLogin = 0 
+AutoAnswer = 1 
+RememberPassword = 1 

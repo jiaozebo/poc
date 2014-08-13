@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="account">帐号</string>
+	<string name="app_name">集群对讲</string>
+	<string name="notify_name">启动集群对讲软件</string>
+	<string name="password">密码</string>
+	<string name="rmbpwd">保存密码</string>
+	<string name="autologin">自动登陆</string>
+	<string name="login">登陆</string>
+	<string name="logout">注销</string>
+	<string name="cancellogin">取消登陆</string>
+	<string name="exit">退出</string>
+	<string name="logining">登陆中 ... </string>
+	<string name="logouting">注销中 ...</string>
+	<string name="speak">讲话</string>
+	<string name="oldpwd">旧密码</string>
+	<string name="newpwd">新密码</string>
+	<string name="back">返回</string>
+	<string name="servip">服务器地址</string>
+	<string name="alertsound">提示音</string>
+	<string name="spkpath">扬声器</string>
+	<string name="InviteTmp">呼叫</string>
+	<string name="noingroup">不在组中</string>
+	<string name="username">名字:</string>
+	<string name="ingroup">讲话组:</string>
+	<string name="callbusy">对方忙</string>
+	<string name="finduser">查找</string>
+	<string name="capimage">拍照上传</string>
+	<string name="noteimage">图片说明</string>
+	<string name="upload">上传</string>
+	<string name="uploadsuccess">上传成功</string>
+	<string name="uploadfail">上传失败</string>
+	<string name="uploading">上传数据中...</string>
+	<string name="open_gps">上传GPS</string>
+	<string name="opengps">GPS没有打开，是否打开?</string>
+	<color name="white">#ffffff</color>
+	<color name="blue">#0000ff</color>
+	<color name="black">#000000</color>
+	<color name="gray">#AAAAAA</color>
+	<color name="gray1">#666666</color>
+	<color name="gray2">#111111</color>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:textSize="23sp"
+		android:layout_marginLeft="35px" android:layout_marginRight="35px"
+		android:layout_marginTop="30px"
+		android:text="@string/account" />
+	<EditText android:text="" android:id="@+id/AccountEditer"
+		android:layout_width="match_parent" android:layout_marginLeft="35px"
+		android:layout_marginRight="35px" android:layout_height="wrap_content"></EditText>
+	<TextView android:id="@+id/textView1" android:layout_width="wrap_content"
+		android:textSize="23sp" android:text="@string/password"
+		android:layout_marginLeft="35px" android:layout_marginRight="35px"
+		android:layout_height="wrap_content" />
+	<EditText android:text="" android:id="@+id/PasswordEditer"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:layout_marginLeft="35px" android:layout_marginRight="35px"
+		android:inputType="textPassword"></EditText>
+	<CheckBox android:text="@string/rmbpwd" android:id="@+id/RmbPwdChecker"
+		android:layout_width="wrap_content" android:textSize="23sp"
+		android:layout_marginLeft="35px" android:layout_marginRight="35px"
+		android:layout_height="wrap_content"></CheckBox>
+	<CheckBox android:layout_width="wrap_content" android:text="@string/autologin"
+		android:id="@+id/AutoLoginChecker" android:textSize="23sp"
+		android:layout_marginLeft="35px" android:layout_marginRight="35px"
+		android:layout_height="wrap_content"></CheckBox>
+	<TextView android:text="" android:id="@+id/InformationLabel"
+		android:layout_width="wrap_content" android:textColor="#ff0000"
+		android:textSize="20sp" android:layout_marginLeft="35px"
+		android:layout_marginRight="35px" android:layout_height="wrap_content"></TextView>
+	<Button android:layout_height="wrap_content"
+		android:layout_alignParentTop="true" android:id="@+id/LoginBtn"
+		android:text="@string/login" android:textSize="23sp" android:gravity="center"
+		android:layout_marginLeft="80px" android:layout_marginRight="80px"
+		android:layout_centerHorizontal="true" android:layout_width="match_parent"></Button>
+
+</LinearLayout>
